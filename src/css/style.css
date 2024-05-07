@@ -604,9 +604,9 @@ video {
   right: 0px;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.mx-\[18px\] {
+  margin-left: 18px;
+  margin-right: 18px;
 }
 
 .mx-\[30px\] {
@@ -614,13 +614,17 @@ video {
   margin-right: 30px;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-\[30px\] {
   margin-bottom: 30px;
+}
+
+.mt-\[170px\] {
+  margin-top: 170px;
 }
 
 .mt-\[40px\] {
@@ -639,22 +643,20 @@ video {
   display: flex;
 }
 
-.size-\[30px\] {
-  width: 30px;
-  height: 30px;
-}
-
-.size-11 {
-  width: 2.75rem;
-  height: 2.75rem;
-}
-
 .h-\[24px\] {
   height: 24px;
 }
 
+.h-\[48px\] {
+  height: 48px;
+}
+
 .w-\[24px\] {
   width: 24px;
+}
+
+.w-\[48px\] {
+  width: 48px;
 }
 
 .w-\[505px\] {
@@ -703,25 +705,22 @@ video {
   border-width: 1px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
-.border-r {
-  border-right-width: 1px;
+.border-\[1px\] {
+  border-width: 1px;
 }
 
 .border-couleur3 {
-  border-color: rgba(225,225,225, 0.7);
-}
-
-.border-\[right\] {
-  border-color: right;
+  border-color: rgba(225,225,225,0.7);
 }
 
 .bg-\[\#00040f\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 4 15 / var(--tw-bg-opacity));
+}
+
+.bg-couleur2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 246 246 / var(--tw-bg-opacity));
 }
 
 .bg-couleur4 {
@@ -730,6 +729,10 @@ video {
 
 .p-\[50px\] {
   padding: 50px;
+}
+
+.p-\[8px\] {
+  padding: 8px;
 }
 
 .px-3 {
@@ -747,67 +750,31 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pt-\[50px\] {
-  padding-top: 50px;
-}
-
-.text-\[60px\] {
-  font-size: 60px;
-}
-
-.text-\[30px\] {
-  font-size: 30px;
-}
-
-.text-\[50px\] {
-  font-size: 50px;
-}
-
-.text-\[35px\] {
-  font-size: 35px;
-}
-
-.text-\[48px\] {
-  font-size: 48px;
-}
-
 .text-\[20px\] {
   font-size: 20px;
-}
-
-.text-\[25px\] {
-  font-size: 25px;
 }
 
 .text-\[40px\] {
   font-size: 40px;
 }
 
+.text-\[48px\] {
+  font-size: 48px;
+}
+
+.text-\[60px\] {
+  font-size: 60px;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
-}
-
-.font-\[20px\] {
-  font-weight: 20px;
-}
-
 .text-couleur2 {
   --tw-text-opacity: 1;
-  color: rgb(0 246 255 / var(--tw-text-opacity));
+  color: rgb(0 246 246 / var(--tw-text-opacity));
 }
 
 .text-couleur3 {
-  color: rgba(225,225,225, 0.7);
-}
-
-.text-blache {
-  color: #ffff;
+  color: rgba(225,225,225,0.7);
 }

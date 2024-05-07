@@ -2,17 +2,18 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
     colors: {
-      blache: '#ffff',
-      couleurbg: '#00040f',
-      couleur2: '#00f6ff',
-      couleur3: 'rgba(225,225,225, 0.7)',
-      couleur4: 'rgba(9,151,124,0.1)'
+      'couleur1': '#00040f',
+      'couleur2': '#00f6f6',
+      'couleur3': 'rgba(225,225,225,0.7)',
+      'couleur4': 'rgba(9,151,124,0.1)',
     },
-    fonts: {
-      ff: '["poppins","sans-serif"]'
-    }
+    police: {
+      poppins: ["poppins", "sans-serif"],
+
+    },
+    extend: {},
+
   },
   plugins: [],
 }
