@@ -3,6 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     colors: {
+      'blanche': '#ffff',
       'couleur1': '#00040f',
       'couleur2': '#00f6f6',
       'couleur3': 'rgba(225,225,225,0.7)',
@@ -13,7 +14,6 @@ module.exports = {
 
     },
     extend: {},
-
   },
   plugins: [],
 }
