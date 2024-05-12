@@ -592,6 +592,10 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -605,14 +609,33 @@ video {
   margin-right: 0.25rem;
 }
 
+.mx-\[100px\] {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.mx-\[100px\] {
-  margin-left: 100px;
-  margin-right: 100px;
+.mx-\[1px\] {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.mx-\[80px\] {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.mb-\[10px\] {
+  margin-bottom: 10px;
 }
 
 .ml-12 {
@@ -639,20 +662,16 @@ video {
   margin-top: 50px;
 }
 
-.mr-\[60px\] {
-  margin-right: 60px;
-}
-
-.mb-\[10px\] {
-  margin-bottom: 10px;
-}
-
 .mt-\[30px\] {
   margin-top: 30px;
 }
 
 .mb-\[70px\] {
   margin-bottom: 70px;
+}
+
+.ml-\[20px\] {
+  margin-left: 20px;
 }
 
 .flex {
@@ -665,18 +684,6 @@ video {
 
 .h-\[140px\] {
   height: 140px;
-}
-
-.h-\[40px\] {
-  height: 40px;
-}
-
-.h-\[60px\] {
-  height: 60px;
-}
-
-.h-\[70px\] {
-  height: 70px;
 }
 
 .h-\[65px\] {
@@ -699,32 +706,20 @@ video {
   width: 180px;
 }
 
-.w-\[550px\] {
-  width: 550px;
-}
-
-.w-\[40px\] {
-  width: 40px;
-}
-
-.w-\[60px\] {
-  width: 60px;
-}
-
-.w-\[70px\] {
-  width: 70px;
-}
-
-.w-\[10px\] {
-  width: 10px;
-}
-
 .w-\[30px\] {
   width: 30px;
 }
 
+.w-\[550px\] {
+  width: 550px;
+}
+
 .w-\[65px\] {
   width: 65px;
+}
+
+.w-\[400px\] {
+  width: 400px;
 }
 
 .flex-col {
@@ -773,13 +768,18 @@ video {
   background-color: rgb(0 4 15 / var(--tw-bg-opacity));
 }
 
+.bg-couleur2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 246 246 / var(--tw-bg-opacity));
+}
+
 .bg-couleur4 {
   background-color: rgba(9,151,124,0.1);
 }
 
-.bg-couleur2 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 246 246 / var(--tw-bg-opacity));
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .py-2 {
@@ -792,42 +792,29 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-\[15px\] {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.text-\[20px\] {
-  font-size: 20px;
-}
-
-.text-\[60px\] {
-  font-size: 60px;
-}
-
-.text-\[85px\] {
-  font-size: 85px;
 }
 
 .text-\[15px\] {
   font-size: 15px;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
-}
-
 .text-\[17px\] {
   font-size: 17px;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .text-\[55px\] {
   font-size: 55px;
+}
+
+.text-\[85px\] {
+  font-size: 85px;
 }
 
 .text-\[50px\] {
