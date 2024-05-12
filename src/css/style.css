@@ -592,10 +592,6 @@ video {
   position: absolute;
 }
 
-.relative {
-  position: relative;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -619,23 +615,12 @@ video {
   margin-right: auto;
 }
 
-.mx-\[1px\] {
-  margin-left: 1px;
-  margin-right: 1px;
-}
-
-.mx-\[80px\] {
-  margin-left: 80px;
-  margin-right: 80px;
-}
-
-.mx-32 {
-  margin-left: 8rem;
-  margin-right: 8rem;
-}
-
 .mb-\[10px\] {
   margin-bottom: 10px;
+}
+
+.mb-\[70px\] {
+  margin-bottom: 70px;
 }
 
 .ml-12 {
@@ -658,20 +643,36 @@ video {
   margin-top: 100px;
 }
 
-.mt-\[50px\] {
-  margin-top: 50px;
-}
-
 .mt-\[30px\] {
   margin-top: 30px;
 }
 
-.mb-\[70px\] {
-  margin-bottom: 70px;
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
+.mt-\[80px\] {
+  margin-top: 80px;
 }
 
 .ml-\[20px\] {
   margin-left: 20px;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
 }
 
 .flex {
@@ -688,10 +689,6 @@ video {
 
 .h-\[65px\] {
   height: 65px;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .w-10 {
@@ -718,8 +715,20 @@ video {
   width: 65px;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
 .w-\[400px\] {
   width: 400px;
+}
+
+.w-\[500px\] {
+  width: 500px;
 }
 
 .flex-col {
@@ -797,6 +806,10 @@ video {
   padding-bottom: 10px;
 }
 
+.text-end {
+  text-align: end;
+}
+
 .text-\[15px\] {
   font-size: 15px;
 }
@@ -809,16 +822,12 @@ video {
   font-size: 20px;
 }
 
-.text-\[55px\] {
-  font-size: 55px;
+.text-\[50px\] {
+  font-size: 50px;
 }
 
 .text-\[85px\] {
   font-size: 85px;
-}
-
-.text-\[50px\] {
-  font-size: 50px;
 }
 
 .font-semibold {
@@ -829,6 +838,11 @@ video {
   color: #ffff;
 }
 
+.text-couleur1 {
+  --tw-text-opacity: 1;
+  color: rgb(0 4 15 / var(--tw-text-opacity));
+}
+
 .text-couleur2 {
   --tw-text-opacity: 1;
   color: rgb(0 246 246 / var(--tw-text-opacity));
@@ -836,13 +850,4 @@ video {
 
 .text-couleur3 {
   color: rgba(225,225,225,0.7);
-}
-
-.text-couleur1 {
-  --tw-text-opacity: 1;
-  color: rgb(0 4 15 / var(--tw-text-opacity));
-}
-
-.hover\:border-\[2px\]:hover {
-  border-width: 2px;
 }
