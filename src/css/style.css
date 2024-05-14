@@ -596,8 +596,20 @@ video {
   bottom: 0px;
 }
 
+.bottom-\[250px\] {
+  bottom: 250px;
+}
+
+.left-\[520px\] {
+  left: 520px;
+}
+
 .right-0 {
   right: 0px;
+}
+
+.top-\[110px\] {
+  top: 110px;
 }
 
 .mx-1 {
@@ -631,8 +643,8 @@ video {
   margin-bottom: 70px;
 }
 
-.ml-12 {
-  margin-left: 3rem;
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .ml-\[10px\] {
@@ -641,10 +653,6 @@ video {
 
 .ml-\[20px\] {
   margin-left: 20px;
-}
-
-.ml-\[25px\] {
-  margin-left: 25px;
 }
 
 .ml-\[30px\] {
@@ -723,8 +731,8 @@ video {
   height: 2.5rem;
 }
 
-.h-\[140px\] {
-  height: 140px;
+.h-\[130px\] {
+  height: 130px;
 }
 
 .h-\[16px\] {
@@ -735,12 +743,16 @@ video {
   height: 65px;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
 
-.w-\[140px\] {
-  width: 140px;
+.w-\[130px\] {
+  width: 130px;
 }
 
 .w-\[180px\] {
@@ -765,6 +777,10 @@ video {
 
 .w-\[550px\] {
   width: 550px;
+}
+
+.w-\[560px\] {
+  width: 560px;
 }
 
 .w-\[65px\] {
@@ -842,11 +858,6 @@ video {
   background-color: rgba(9,151,124,0.1);
 }
 
-.px-\[10px\] {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 .px-\[15px\] {
   padding-left: 15px;
   padding-right: 15px;
@@ -876,16 +887,20 @@ video {
   text-align: center;
 }
 
-.text-end {
-  text-align: end;
-}
-
 .text-\[12px\] {
   font-size: 12px;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .text-\[15px\] {
   font-size: 15px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .text-\[17px\] {
@@ -908,8 +923,8 @@ video {
   font-size: 40px;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
+.text-\[60px\] {
+  font-size: 60px;
 }
 
 .text-\[8px\] {
@@ -939,17 +954,24 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:mx-\[50px\] {
-    margin-left: 50px;
-    margin-right: 50px;
+  .md\:ml-\[25px\] {
+    margin-left: 25px;
   }
 
   .md\:mt-\[0\] {
     margin-top: 0;
   }
 
+  .md\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
   .md\:mt-\[10px\] {
     margin-top: 10px;
+  }
+
+  .md\:mt-\[150px\] {
+    margin-top: 150px;
   }
 
   .md\:mt-\[25px\] {
@@ -976,17 +998,8 @@ video {
     justify-content: space-between;
   }
 
-  .md\:px-\[15px\] {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
   .md\:text-\[15px\] {
     font-size: 15px;
-  }
-
-  .md\:text-\[20px\] {
-    font-size: 20px;
   }
 
   .md\:text-\[50px\] {
@@ -995,9 +1008,9 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mx-\[100px\] {
-    margin-left: 100px;
-    margin-right: 100px;
+  .lg\:mx-\[50px\] {
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .lg\:mb-\[70px\] {
@@ -1060,7 +1073,11 @@ video {
     font-size: 40px;
   }
 
-  .lg\:text-\[85px\] {
-    font-size: 85px;
+  .lg\:text-\[50px\] {
+    font-size: 50px;
+  }
+
+  .lg\:text-\[78px\] {
+    font-size: 78px;
   }
 }
